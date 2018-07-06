@@ -42,7 +42,27 @@ Tests.schema = new SimpleSchema({
   },
   question: {
     type: String,
-    label: 'A question of in test.',
+    label: 'A question in test.',
+  },
+  correctAnswer: {
+    type: String,
+    label: 'Correct answer for the question',
+  },
+  wrongAnswerOne: {
+    type: String,
+    label: 'Incorrect answer one',
+  },
+  wrongAnswerTwo: {
+    type: String,
+    label: 'Incorrect answer two',
+  },
+  wrongAnswerThree: {
+    type: String,
+    label: 'Incorrect answer three',
+  },
+  wrongAnswerFour: {
+    type: String,
+    label: 'Incorrect answer four',
   },
 });
 
